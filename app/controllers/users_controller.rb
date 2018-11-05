@@ -14,7 +14,7 @@ class UsersController < ApplicationController
       flash.now[:success] = "Connecté"
       redirect_to @user
     else
-      flash.now[:danger] = 'Combination email/password invalide'
+      flash.now[:danger] = 'Veuillez remplir tous les champs'
       render 'new'
     end
   end
