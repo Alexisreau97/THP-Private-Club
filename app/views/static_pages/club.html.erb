@@ -1,1 +1,9 @@
-<h1>PAGE DU CLUB</h1>
+<h1>LE CLUB</h1>
+<br>
+
+<% @user.each do |user| %>
+	<p>Prénom : <%= user.first_name %></p>
+	<p>Nom : <%= user.last_name %></p>
+	<p>Email : <%= user.email %></p>
+	<hr>
+<% end %>

@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
-  def index
+  def club
+  	@user = User.all
   end
 end
