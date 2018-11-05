@@ -20,6 +20,7 @@ https://thp-private-club-9000.herokuapp.com/
 | -------- |:-------------:|
 | REAU     | Alexis        |
 | PINTO    | Florian       |
+| AVRONSART    | Cyril       |
 
 
 # Check-list
